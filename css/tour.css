@@ -1,0 +1,49 @@
+/* Tour page styles */
+
+/*tours table*/
+#tours {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 5em; 
+}
+
+#tours caption {
+    display: none;
+}
+
+#tours td{
+    border-bottom: 1px dotted #F7877E; 
+}
+
+#tours th {
+    color: #F7877E;
+    font-size: 1.25em; 
+    text-align: left;
+}
+
+#tours th, 
+#tours td { 
+    width: 5em;
+    padding: 5px;
+}
+
+#tours tr th:nth-child(2),
+#tours tr td:nth-child(2) {
+    width: 7.5em;  
+}
+
+#tours tr th:nth-child(3),
+#tours tr td:nth-child(3) {
+    width: 8em;  
+}
+
+.heading {
+  display: inline-block;
+  flex-basis: 3.25em;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
